@@ -1,0 +1,24 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/launchScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <!-- Linear Gradient Background -->
+    <android.graphics.drawable.GradientDrawable
+        android:orientation="vertical"
+        android:startColor="#0056b3"  
+        android:endColor="#007AFF"  
+        android:gradientRadius="90" />
+
+    <!-- Add any views for logo, app name, etc. -->
+    <!-- <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true" /> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

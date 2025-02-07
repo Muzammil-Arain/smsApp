@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "101134654316",
+    "firebase_url": "https://smsappadmin-default-rtdb.firebaseio.com",
+    "project_id": "smsappadmin",
+    "storage_bucket": "smsappadmin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101134654316:android:48328ac94fe14c70a87149",
+        "android_client_info": {
+          "package_name": "com.smsadminapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZoLUHWdbS_tie36H32zdczGl06faZy8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101134654316:android:5273cc8b02d24020a87149",
+        "android_client_info": {
+          "package_name": "com.smsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZoLUHWdbS_tie36H32zdczGl06faZy8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,8 +10,8 @@ import Colors from '../theme/color';
 
 const Browser = () => {
   const route = useRoute();
-  const navigation = useNavigation();
   const {url, title} = route.params;
+  const navigation = useNavigation();
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -30,7 +30,9 @@ const Browser = () => {
     <View style={styles.container}>
       <StatusBar translucent={true} backgroundColor={'transparent'} />
 
-      <LinearGradient colors={[Colors.secondary, Colors.primary]} style={styles.header}>
+      <LinearGradient
+        colors={[Colors.secondary, Colors.primary]}
+        style={styles.header}>
         <TouchableOpacity onPress={navigation.goBack} style={styles.backButton}>
           <VectorIcon name="arrow-back" size={24} color={Colors.white} />
         </TouchableOpacity>

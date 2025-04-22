@@ -1,4 +1,4 @@
-import { Alert, NativeModules, PermissionsAndroid } from 'react-native';
+import { NativeModules, PermissionsAndroid } from 'react-native';
 const { SmsReader } = NativeModules;
 
 // Start SMS Retriever (No READ_SMS permission needed)
@@ -31,13 +31,12 @@ export const getOtpRequest = async () => {
           try {
             const otpMessages = await SmsReader.getOtpMessages();
             const SMSData = JSON.parse(otpMessages);
-            console.log("OTP Messages:", SMSData);
             resolve(SMSData);
           } catch (error) {
             console.error("Error fetching OTP messages:", error);
             reject(error);
           }
-        }, 8000);
+        }, 5000);
       });
     } else {
       console.log("READ_SMS permission denied");

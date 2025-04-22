@@ -1,9 +1,8 @@
 import React from 'react';
+import Colors from '../theme/color';
 import {ScaledSheet} from 'react-native-size-matters';
 import LinearGradient from 'react-native-linear-gradient';
 import {Text, TouchableOpacity, ActivityIndicator} from 'react-native';
-
-import Colors from '../theme/color';
 
 const ButtonView = ({
   title,
@@ -34,6 +33,7 @@ const ButtonView = ({
     }
   };
 
+  
   return (
     <TouchableOpacity
       style={[

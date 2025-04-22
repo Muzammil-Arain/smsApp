@@ -28,6 +28,7 @@
     "react-native-gesture-handler": "^2.22.1",
     "react-native-linear-gradient": "^2.8.3",
     "react-native-localize": "^3.4.1",
+    "react-native-modal": "^13.0.1",
     "react-native-network-info": "^5.2.1",
     "react-native-otp-autocomplete": "^1.0.7",
     "react-native-phone-number-input": "^2.1.0",

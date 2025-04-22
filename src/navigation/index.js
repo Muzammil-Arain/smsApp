@@ -2,7 +2,7 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
 //screens
-import Home from '../screens/home';
+import Home from '../screens/home/index';
 import Browser from '../screens/browser';
 
 const AuthStack = createStackNavigator();

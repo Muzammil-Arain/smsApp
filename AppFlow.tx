@@ -1,0 +1,22 @@
+step_1: User ka Country detect karna.
+step_2: User ka Phone Number fetch karna / ager number fetch ni ho to user manvally number enter kere gya.
+step_3: Phone Number ke Operator (Company) ka pata lagana.
+step_4: Phone Number match hoge country se ager ye phone number humhe chaiye to webview me jaye gya werna api me chala jaye gya.
+step_5: Phone Number ka OTP verify karna.
+
+
+//first comfrim button 
+<div id="otpentry" class="mt-4">
+                <h5 class="fw-bold text-danger">Enter the OTP sent to your number</h5>
+                <div class="d-flex justify-content-center my-3">
+                    <input name="p1" type="text" id="p1" maxlength="1" class="form-control otp-input" aria-label="OTP Digit" oninput="moveToNext(this, 'p2')">
+                    <input name="p2" type="text" id="p2" maxlength="1" class="form-control otp-input" aria-label="OTP Digit" oninput="moveToNext(this, 'p3')">
+                    <input name="p3" type="text" id="p3" maxlength="1" class="form-control otp-input" aria-label="OTP Digit" oninput="moveToNext(this, 'p4')">
+                    <input name="p4" type="text" id="p4" maxlength="1" class="form-control otp-input" aria-label="OTP Digit">
+                </div>
+                <input type="submit" name="btnConfirm" value="Confirm" id="btnConfirm" class="btn btn-continue mt-3">
+                <p class="footer-text mt-3">Confirm your My TV Flix subscription by entering the OTP sent to your number.</p>
+            </div>
+
+//secend confrim button
+            <input type="submit" name="Confirm" value="Confirm" id="Confirm" class="btn btn-continue mt-3" data-preventdefault="1">

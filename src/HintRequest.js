@@ -1,5 +1,5 @@
-import { NativeModules } from 'react-native';
-const { HintRequestModule } = NativeModules;
+import {NativeModules} from 'react-native';
+const {HintRequestModule} = NativeModules;
 
 export const getPhoneNumberHint = async () => {
   try {
